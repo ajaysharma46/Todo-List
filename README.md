@@ -15,7 +15,7 @@ A modern and responsive **To-Do List Application** built using **HTML, CSS, and 
 
 ## 🚀 Live Demo
 
-```md id="tkhh6j"
+```
 https://todo-list-ajaysharma.vercel.app/
 ```
 
