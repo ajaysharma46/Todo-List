@@ -24,7 +24,7 @@ https://todo-list-ajaysharma.vercel.app/
 ## 📸 Preview
 
 
-<img src="assets/Task Image.png" >
+<img src="assets/Task Image.png" height="100px">
 
 
 ---
