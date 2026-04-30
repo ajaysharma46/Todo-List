@@ -53,8 +53,12 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+   
 }
 
+.details{
+    flex: 1; 
+}
 .details h1 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -68,7 +72,7 @@ body {
 }
 
 #progressBar {
-    width: 280px;
+   
     height: 6px;
     background-color: var(--border);
     border-radius: 10px;
@@ -90,6 +94,7 @@ body {
     border: 3px solid var(--accent);
     border-radius: 50%;
     display: flex;
+    margin: 2px;
     justify-content: center;
     align-items: center;
     font-size: 1.1rem;
@@ -103,10 +108,18 @@ form {
     display: flex;
     gap: 12px;
     margin-bottom: 25px;
+    justify-content: center;
+     margin: 20px 5px;
+}
+
+input[type="text"] {
+   flex-grow: 1;
+ 
+   min-width: 85%;
 }
 
 input {
-    flex: 1;
+    
     padding: 14px 18px;
     border-radius: 8px;
     border: 1px solid var(--border);
@@ -114,6 +127,7 @@ input {
     color: var(--text-primary);
     font-size: 1rem;
     transition: border-color 0.2s, box-shadow 0.2s;
+   
 }
 
 input:focus {
@@ -123,7 +137,8 @@ input:focus {
 }
 
 button#newTask {
-    width: 46px;
+   
+   min-width: 46px;
     height: 46px;
     margin-top: 2px;
     /* border-radius: 8px; */
